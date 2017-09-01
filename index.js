@@ -10,12 +10,33 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+  const price = Math.floor( Math.random() * 101)
+  var v = {[`${item}`]: parseInt(`${price}`, 10)}
+  cart.push(v)
+  console.log(`${item} has been added to your cart.`)
+  return cart;
 }
 
+ // viewCart should loop over every item in your cart, printing out the contents as one long, coherent statement in this format: In your cart, you have bananas at $17, pancake batter at $5, and eggs at $49.
+
 function viewCart() {
-  // write your code here
+
+  var ans = ["In your cart, you have "];
+  var cartlength = cart.length
+
+  if(cart.length === 0) {
+    return console.log('Your shopping cart is empty.');
+  }
+
+  stuff = [];
+
+  for (let i = 0; i < cartlength; i++) {
+    let itemAndPrice = cart[i];
+    let item = Object.keys(itemAndPrice)[0];
+    let price = itemAndPrice[item];
+  }
 }
+
 
 function total() {
   // write your code here
