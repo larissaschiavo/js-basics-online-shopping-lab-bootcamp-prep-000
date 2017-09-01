@@ -36,7 +36,7 @@ function viewCart() {
 
     stuff.push(`${item} at \$${price}`);
   }
-
+  console.log(stuff.length)
   switch(stuff.length) {
       case 1:
         break;
