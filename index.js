@@ -68,7 +68,7 @@ function removeFromCart(item) {
   let itemIndex = foodNames.findIndex(item);
 
   if (foodNames.includes(item) === false) {
-    
+    console.log("That item is not in your cart.")
   }
 }
 
