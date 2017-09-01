@@ -54,7 +54,7 @@ function viewCart() {
 
 function total() {
 
-  ans = 0 
+  var ans = 0 
   for(let i = 0; i < cart.length; i++){
     let v = Object.values(cart[i])
   }
