@@ -57,8 +57,9 @@ function total() {
   var ans = 0
   for(let i = 0; i < cart.length; i++){
     let v = Object.values(cart[i])
-    ans = ans + v 
+    ans = ans + v
   }
+  return ans 
 }
 
 function removeFromCart(item) {
