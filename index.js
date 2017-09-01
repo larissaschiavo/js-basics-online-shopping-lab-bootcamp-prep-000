@@ -64,7 +64,7 @@ function total() {
 
 function removeFromCart(item) {
   let foodNames = Object.keys(cart);
-  let itemIndex = foodNames.index(item)
+  let itemIndex = foodNames.findIndex(item);
 }
 
 function placeOrder(cardNumber) {
