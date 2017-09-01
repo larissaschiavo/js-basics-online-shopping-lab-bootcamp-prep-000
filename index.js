@@ -47,6 +47,8 @@ function viewCart() {
       stuff[cartlength -1] = "and "
       stuff = stuff.join(", ")
   }
+
+  console.log(`In your cart, you have ${stuff}`)
 }
 
 
