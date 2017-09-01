@@ -34,6 +34,8 @@ function viewCart() {
     let itemAndPrice = cart[i];
     let item = Object.keys(itemAndPrice)[0];
     let price = itemAndPrice[item];
+
+    
   }
 }
 
