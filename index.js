@@ -48,7 +48,7 @@ function viewCart() {
       stuff = stuff.join(", ")
   }
 
-  console.log(`In your cart, you have ${stuff}`)
+  console.log(`In your cart, you have ${stuff}.`)
 }
 
 
