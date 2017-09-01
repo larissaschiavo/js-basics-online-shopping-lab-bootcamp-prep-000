@@ -42,7 +42,7 @@ function viewCart() {
     case 1:
       break;
     case 2:
-      stuff.join(" and ");
+      stuff = stuff.join(" and ");
     default:
       stuff[cartlength -1] = "and ".concat(stuff[cartlength - 1])
       stuff = stuff.join(", ")
