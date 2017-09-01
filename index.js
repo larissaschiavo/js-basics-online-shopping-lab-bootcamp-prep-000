@@ -45,10 +45,11 @@ function viewCart() {
     else if (stuff.length === 2) {
       stuff = stuff.join(" and ");
     }
-    
-    default:
+
+    else {
       stuff[cartlength -1] = "and ".concat(stuff[cartlength - 1])
       stuff = stuff.join(", ")
+    }
   }
 
   console.log(`In your cart, you have ${stuff}.`)
