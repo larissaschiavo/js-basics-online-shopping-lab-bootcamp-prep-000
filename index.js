@@ -63,13 +63,8 @@ function total() {
 }
 
 function removeFromCart(item) {
+  hasItem = false; 
 
-  let foodNames = Object.keys(cart);
-  let itemIndex = foodNames.findIndex(item);
-
-  if (foodNames.includes(item) === false) {
-    console.log("That item is not in your cart.")
-  }
 }
 
 function placeOrder(cardNumber) {
