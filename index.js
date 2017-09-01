@@ -63,7 +63,9 @@ function total() {
 }
 
 function removeFromCart(item) {
-  hasItem = false; 
+  var hasItem = false;
+
+  for(let i = 0, l = cart.length; ) 
 
 }
 
