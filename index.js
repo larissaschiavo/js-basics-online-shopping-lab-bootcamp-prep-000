@@ -42,7 +42,9 @@ function viewCart() {
     case 1:
       break;
     case 2:
-      stuff.join(" and ")
+      stuff.join(" and ");
+    default:
+      stuff[cartlength -1]
 
   }
 }
