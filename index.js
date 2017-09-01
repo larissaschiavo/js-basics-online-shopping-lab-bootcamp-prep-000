@@ -58,7 +58,7 @@ function total() {
   for(let i = 0; i < cart.length; i++){
     let itemAndPrice = cart[i]
     let price = Object.values(itemAndPrice)[i]
-    ans = ans + x 
+    ans = ans + price 
   }
   return ans
 }
