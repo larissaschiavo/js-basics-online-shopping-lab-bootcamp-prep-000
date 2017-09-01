@@ -66,8 +66,10 @@ function removeFromCart(item) {
   var hasItem = false;
 
   for(let i = 0, l = cart.length; i < l; i++){
-    
-  } 
+    if (cart[i].hasOwnProperty(item)) {
+      
+    }
+  }
 
 }
 
