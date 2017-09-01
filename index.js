@@ -54,8 +54,9 @@ function viewCart() {
 
 function total() {
 
-  for(let i = 0; i < cart.length; i++)
-  let v = Object.values(cart[1])
+  for(let i = 0; i < cart.length; i++){
+    let v = Object.values(cart[1])
+  }
 }
 
 function removeFromCart(item) {
