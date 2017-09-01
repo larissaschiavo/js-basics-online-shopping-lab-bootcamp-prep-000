@@ -39,7 +39,7 @@ function viewCart() {
   }
 
     if(stuff.length === 1){
-      break;
+      break
     }
 
     else if (stuff.length === 2) {
