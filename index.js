@@ -37,6 +37,8 @@ function viewCart() {
 
     stuff.push(`${item} at \$${price}`);
   }
+
+  switch(stuff.length)
 }
 
 
