@@ -38,7 +38,12 @@ function viewCart() {
     stuff.push(`${item} at \$${price}`);
   }
 
-  switch(stuff.length)
+  switch(stuff.length) {
+    case 1:
+      break;
+    case 2:
+
+  }
 }
 
 
