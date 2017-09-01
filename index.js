@@ -44,7 +44,8 @@ function viewCart() {
     case 2:
       stuff.join(" and ");
     default:
-      stuff[cartlength -1] = "and ".concat 
+      stuff[cartlength -1] = "and "
+      stuff = stuff.join(", ")
 
   }
 }
