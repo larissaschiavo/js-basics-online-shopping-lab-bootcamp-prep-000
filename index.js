@@ -53,7 +53,6 @@ function viewCart() {
 
 
 function total() {
-
   let ans = 0
   for(let i = 0; i < cart.length; i++){
     for(let item in cart[i]){
@@ -64,7 +63,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  
 }
 
 function placeOrder(cardNumber) {
