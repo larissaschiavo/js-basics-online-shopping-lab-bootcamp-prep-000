@@ -58,7 +58,7 @@ function total() {
   for(let i = 0; i < cart.length; i++){
     let v = cart[i]
     let x = v[i]
-    ans = ans + v
+    ans = ans + x 
   }
   return ans
 }
