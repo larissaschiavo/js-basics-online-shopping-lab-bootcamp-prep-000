@@ -38,17 +38,18 @@ function viewCart() {
     stuff.push(`${item} at \$${price}`);
   }
 
-    if(stuff.length === 1){
-      break
+  switch(itemsAndPrices.length) {
+      case 1:
+        break;
+      case 2:
+        itemsAndPrices = itemsAndPrices.join(" and ");
+        break;
+      default:
+        itemsAndPrices[l-1] = "and ".concat(itemsAndPrices[l-1]);
+        itemsAndPrices = itemsAndPrices.join(", ");
     }
 
-    else if (stuff.length === 2) {
-      stuff = stuff.join(" and ");
-    }
-
-    else {
-      stuff[cartlength -1] = "and ".concat(stuff[cartlength - 1])
-      stuff = stuff.join(", ")
+    console.log(`In your cart, you have ${itemsAndPrices}.`);uff = stuff.join(", ")
     }
   }
 
