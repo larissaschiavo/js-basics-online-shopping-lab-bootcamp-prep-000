@@ -53,7 +53,7 @@ function viewCart() {
 
 
 function total() {
-  var v = Object.values(cart[1])
+  let v = Object.values(cart[1])
 }
 
 function removeFromCart(item) {
