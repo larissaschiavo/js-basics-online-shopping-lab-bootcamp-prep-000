@@ -38,14 +38,14 @@ function viewCart() {
     stuff.push(`${item} at \$${price}`);
   }
 
-  switch(itemsAndPrices.length) {
+  switch(stuff.length) {
       case 1:
         break;
       case 2:
-        itemsAndPrices = itemsAndPrices.join(" and ");
+        stuff = stuff.join(" and ");
         break;
       default:
-        itemsAndPrices[l-1] = "and ".concat(itemsAndPrices[l-1]);
+        stuff[cartlength-1] = "and ".concat(itemsAndPrices[l-1]);
         itemsAndPrices = itemsAndPrices.join(", ");
   }
 
