@@ -56,7 +56,7 @@ function total() {
 
   var ans = 0
   for(let i = 0; i < cart.length; i++){
-    v = cart[i].values()[i]
+    v = cart[i].values()
     ans = ans + v
   }
   return ans
