@@ -63,8 +63,13 @@ function total() {
 }
 
 function removeFromCart(item) {
+
   let foodNames = Object.keys(cart);
   let itemIndex = foodNames.findIndex(item);
+
+  if (foodNames.includes(item) === false) {
+    
+  }
 }
 
 function placeOrder(cardNumber) {
