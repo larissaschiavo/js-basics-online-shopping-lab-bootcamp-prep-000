@@ -68,14 +68,14 @@ function removeFromCart(item) {
   for(let i = 0, l = cart.length; i < l; i++){
     if (cart[i].hasOwnProperty(item)) {
       hasItem = true;
-      cart = cart.slice(0, i).concat(cart.slice(i + 1))
+      cart = cart.slice(0, i).concat(cart.slice(i + 1));
     }
   }
 
   if (!hasItem) {
     console.log("That item is not in your cart.")
   }
-  return cart 
+  return cart
 }
 
 function placeOrder(cardNumber) {
