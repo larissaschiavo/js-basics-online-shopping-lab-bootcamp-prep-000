@@ -46,7 +46,6 @@ function viewCart() {
     default:
       stuff[cartlength -1] = "and "
       stuff = stuff.join(", ")
-
   }
 }
 
